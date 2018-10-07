@@ -1,0 +1,115 @@
+body {
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/gravel.png);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+h1, h2, h3 {
+    font-family:'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+p {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+a {
+    color: #666;
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+/*-- Header/Navigation Elements --*/
+.nav-bar {
+    width: 100%;
+    background: white;
+    border-bottom: 1px #666 solid;
+    height: 100px;
+    position: fixed;
+    top: 0;
+}
+.nav-bar img {
+    width: 350px;
+    margin-left: 15%;
+}
+.main-nav {
+    width: 50%;
+    float: right;
+    margin-top: 2%;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    margin: 10px;
+    padding: 4%;
+}
+
+/*END*/
+
+/*-- Body Content --*/
+.bg {
+    max-width: 960px;
+    background-color: #fff;
+    padding: 2%;
+    margin: auto;
+    height: 100%;
+    line-height: 2pc;
+}
+.me {
+    max-width: 100%;
+    float: left;
+    padding: 2%;
+}
+
+
+/*END*/
+
+/*END ABOUT PAGE*/
+
+/*Start Contact Page
+form {
+    display: grid;
+}
+input[type="submit"] {
+    width: 10%;
+    margin-top: 5%;
+    background: #4a82a2;
+    height: 50%;
+    color: white;
+    font-size: 12pt;
+}
+/*END CONTACT PAGE*/
+
+/*Start Portfolio Page*/
+
+h3.work {
+    border-bottom: 0;
+    background: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    padding: 15px;
+    width: 250px;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 300;
+
+}
+
+/*END PORTFOLIO PAGE*/
+
+/*-- Footer Content --*/
+.footer {
+    background:#666666;
+    border-top: 5px green solid;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+/*END*/
